@@ -1,0 +1,14 @@
+{
+  "fit_clearance_per_side": 0.4,
+  "deck_thickness": 3.0,
+  "rim_thickness": 2.4,
+  "rim_height_above_deck": 4.0,
+  "slot_columns": 12,
+  "slot_width": 4.0,
+  "slot_pitch": 8.0,
+  "slot_field_length_y": 56.0,
+  "central_bridge_width": 4.0,
+  "rib_width": 2.0,
+  "rib_length": 52.0,
+  "rib_height": 1.0
+}

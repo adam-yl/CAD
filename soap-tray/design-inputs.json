@@ -1,0 +1,17 @@
+{
+  "project_name": "Soap Tray",
+  "revision": "v0.1",
+  "units": "mm",
+  "user_dimensions": {
+    "soap_length": 94.0,
+    "soap_width": 56.0,
+    "soap_height": 25.0
+  },
+  "design_intent": "Two removable parts: a closed drainage catch tray and a slotted soap-support insert.",
+  "assumptions": [
+    "The soap dimensions describe a rectangular maximum envelope.",
+    "Drainage collects in the lower tray; there is no outlet to a sink.",
+    "Nominal fit clearance is provisional and depends on fabrication.",
+    "Both parts have flat undersides; an upright FDM print is a proposed orientation, not a validated print process."
+  ]
+}

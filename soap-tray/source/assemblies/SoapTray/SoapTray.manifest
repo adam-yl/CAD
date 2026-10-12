@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Soap Tray project",
+  "description": {"": "Build a two-part soap tray for a 94 x 56 x 25 mm bar. All requested output stays in this CAD project."},
+  "supportedOS": "windows|mac",
+  "version": "0.1.0",
+  "runOnStartup": false
+}

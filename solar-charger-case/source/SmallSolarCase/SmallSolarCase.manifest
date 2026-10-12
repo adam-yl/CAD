@@ -1,0 +1,11 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Solar Charger Case project",
+  "description": {
+    "": "Small solar charger v0.3: measured switch access with assembly entry and relocated switch-side front catch; retains 0.6 mm end fillets and split lens groove. Creates a new unsaved design and exports only into this CAD project."
+  },
+  "version": "0.3.0",
+  "supportedOS": "mac|windows",
+  "runOnStartup": false
+}

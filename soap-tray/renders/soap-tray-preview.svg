@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1080" viewBox="0 0 1440 1080" role="img" aria-labelledby="title desc">
+<title id="title">Soap Tray — two-piece design preview</title>
+<desc id="desc">Exploded isometric concept illustration of a soap bar, removable slotted filter, and drainage base. All dimensions are in millimetres. Base dimensions are 116 by 78 by 15.4. The insert is 110.4 by 72.4 with twenty-four slots and eleven raised support ribs. Schematic of the original scripted model. Physical fit remains unverified.</desc>
+<defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f6f8f5"/><stop offset="1" stop-color="#eaf0ed"/></linearGradient>
+  <linearGradient id="baseSide" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#528c82"/><stop offset="1" stop-color="#2f645d"/></linearGradient>
+  <linearGradient id="soapTop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcfaf0" stop-opacity=".95"/><stop offset="1" stop-color="#dddcbf" stop-opacity=".72"/></linearGradient>
+  <filter id="shadow" x="-30%" y="-40%" width="160%" height="190%"><feGaussianBlur stdDeviation="12"/></filter>
+  <clipPath id="upperOpening"><rect x="-55.6" y="-36.6" width="111.2" height="73.2" rx="7.6"/></clipPath>
+  <clipPath id="lowerOpening"><rect x="-52.8" y="-33.8" width="105.6" height="67.6" rx="4.8"/></clipPath>
+  <g id="slotPair"><rect x="-2" y="-28" width="4" height="26" rx="2"/><rect x="-2" y="2" width="4" height="26" rx="2"/></g>
+  <g id="rib"><rect x="-1" y="-26" width="2" height="52" rx=".8"/></g>
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif; fill: #183a34; }
+    .muted { fill: #62756f; }
+    .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: 2px; }
+    .body { font-size: 16px; }
+    .fine { font-size: 13px; }
+    .dimension { font-size: 25px; font-weight: 600; letter-spacing: -.5px; }
+    .leader { fill: none; stroke: #7c9690; stroke-width: 1.2; }
+    .axis { fill: none; stroke: #72958b; stroke-width: 1.2; stroke-dasharray: 5 7; opacity: .6; }
+    .card { fill: #ffffff; fill-opacity: .78; stroke: #d7e2dd; }
+  </style>
+</defs>
+<rect width="1440" height="1080" fill="url(#background)"/>
+<path d="M64 144H1376" stroke="#cddbd4"/>
+<text x="64" y="51" class="eyebrow muted">SOAP TRAY / TWO-PIECE SYSTEM</text>
+<text x="61" y="107" font-size="49" font-weight="600" letter-spacing="-2">A dry resting place.</text>
+<rect x="1017" y="46" width="359" height="35" rx="17.5" fill="#d9e8df"/>
+<text x="1196.5" y="68" text-anchor="middle" font-size="13" font-weight="600">DESIGNED FOR A 94 × 56 × 25 mm BAR</text>
+<text x="1376" y="111" text-anchor="end" class="fine muted">Scripted geometry · physical fit unverified</text>
+
+<!-- Exploded concept: vertical offsets intentionally exaggerated for clarity. -->
+<text x="64" y="186" class="eyebrow muted">EXPLODED VIEW</text>
+<text x="64" y="208" class="fine muted">Concept illustration · separation exaggerated</text>
+<path class="axis" d="M308 421V792 M654 421V792"/>
+
+<!-- Soap ghost, 94 × 56 × 25 mm. -->
+<g transform="translate(451 265)">
+  <path d="M-225-20.9L-225 54.1L57 157.5L225 95.9V20.9L57 82.5Z" fill="#d9d7b8" fill-opacity=".48" stroke="#b9bda6" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <path d="M57 82.5V157.5" stroke="#b9bda6" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <g transform="matrix(3 1.1 -3 1.1 0 0)">
+    <rect x="-47" y="-28" width="94" height="56" rx="1.1" fill="url(#soapTop)" stroke="#b8baa2" stroke-width=".45"/>
+    <rect x="-35" y="-17" width="70" height="34" rx="8" fill="none" stroke="#c9ccb4" stroke-width=".45" opacity=".8"/>
+    <text x="0" y="3" text-anchor="middle" font-size="8" font-weight="600" letter-spacing="1.8" fill="#9ca98d" opacity=".75">SOAP</text>
+  </g>
+</g>
+<path class="leader" d="M676 354H746V323H803"/>
+<text x="815" y="316" font-size="14" font-weight="600">SOAP BAR</text>
+<text x="815" y="338" class="fine muted">94 × 56 × 25</text>
+
+<!-- Removable insert: slightly separated rim, deck and underside portray thickness. -->
+<ellipse cx="451" cy="665" rx="221" ry="39" fill="#345f54" opacity=".07" filter="url(#shadow)"/>
+<g transform="matrix(3 1.1 -3 1.1 451 572)">
+  <rect x="-55.2" y="-36.2" width="110.4" height="72.4" rx="7.2" fill="#699f8e"/>
+</g>
+<g transform="matrix(3 1.1 -3 1.1 451 563)">
+  <rect x="-55.2" y="-36.2" width="110.4" height="72.4" rx="7.2" fill="#b6d8c8" stroke="#5f9b85" stroke-width=".35"/>
+  <rect x="-52.8" y="-33.8" width="105.6" height="67.6" rx="4.8" fill="#cfe6d8"/>
+  <g fill="#416e61">
+    <use href="#slotPair" x="-44"/><use href="#slotPair" x="-36"/><use href="#slotPair" x="-28"/><use href="#slotPair" x="-20"/>
+    <use href="#slotPair" x="-12"/><use href="#slotPair" x="-4"/><use href="#slotPair" x="4"/><use href="#slotPair" x="12"/>
+    <use href="#slotPair" x="20"/><use href="#slotPair" x="28"/><use href="#slotPair" x="36"/><use href="#slotPair" x="44"/>
+  </g>
+  <g fill="#edf7eb" stroke="#b0d2bb" stroke-width=".3">
+    <use href="#rib" x="-40"/><use href="#rib" x="-32"/><use href="#rib" x="-24"/><use href="#rib" x="-16"/><use href="#rib" x="-8"/>
+    <use href="#rib" x="0"/><use href="#rib" x="8"/><use href="#rib" x="16"/><use href="#rib" x="24"/><use href="#rib" x="32"/><use href="#rib" x="40"/>
+  </g>
+</g>
+<!-- Continuous rim shown as a filled ring above the deck plane. -->
+<g transform="matrix(3 1.1 -3 1.1 451 551)">
+  <path d="M-48-36.2H48Q55.2-36.2 55.2-29V29Q55.2 36.2 48 36.2H-48Q-55.2 36.2-55.2 29V-29Q-55.2-36.2-48-36.2Z M-48-33.8Q-52.8-33.8-52.8-29V29Q-52.8 33.8-48 33.8H48Q52.8 33.8 52.8 29V-29Q52.8-33.8 48-33.8Z" fill="#99c7ae" fill-rule="evenodd" stroke="#5c9279" stroke-width=".3"/>
+</g>
+<path class="leader" d="M705 572H772"/>
+<circle cx="792" cy="572" r="18" fill="#214d42"/>
+<text x="792" y="577" text-anchor="middle" font-size="13" font-weight="700" fill="white" style="fill:white">01</text>
+<text x="822" y="566" font-size="14" font-weight="600">FILTER</text>
+<text x="822" y="587" class="fine muted">Lift to clean</text>
+
+<!-- Water-catching base, rounded upper recess and lower reservoir. -->
+<ellipse cx="451" cy="958" rx="238" ry="38" fill="#1b473e" opacity=".13" filter="url(#shadow)"/>
+<g transform="matrix(3 1.1 -3 1.1 451 834.2)">
+  <rect x="-58" y="-39" width="116" height="78" rx="10" fill="#356b60"/>
+</g>
+<path d="M181 780L181 826.2L226 853L478 945.4L517 945.4L716 872L739 848V801.8L517 899.2H478Z" fill="url(#baseSide)"/>
+<g transform="matrix(3 1.1 -3 1.1 451 788)">
+  <rect x="-58" y="-39" width="116" height="78" rx="10" fill="#9fcbbc" stroke="#3d7e6c" stroke-width=".4"/>
+  <rect x="-55.6" y="-36.6" width="111.2" height="73.2" rx="7.6" fill="#487f70"/>
+  <g clip-path="url(#upperOpening)">
+    <g transform="translate(6.818 6.818)">
+      <rect x="-55.6" y="-36.6" width="111.2" height="73.2" rx="7.6" fill="#8bb9a6"/>
+      <rect x="-52.8" y="-33.8" width="105.6" height="67.6" rx="4.8" fill="#487966"/>
+      <g clip-path="url(#lowerOpening)">
+        <rect x="-41.891" y="-22.891" width="105.6" height="67.6" rx="4.8" fill="#78a891"/>
+        <path d="M-30 20Q-11 11 10 21T46 23M-23 26Q-6 20 8 27T34 30" fill="none" stroke="#afd8c5" stroke-width=".65" opacity=".65"/>
+      </g>
+    </g>
+  </g>
+  <!-- Conceptual indication of the two end finger recesses. -->
+  <path d="M-58-9H-55.6V9H-58Z M55.6-9H58V9H55.6Z" fill="#437665"/>
+</g>
+<path class="leader" d="M727 826H772"/>
+<circle cx="792" cy="826" r="18" fill="#214d42"/>
+<text x="792" y="831" text-anchor="middle" font-size="13" font-weight="700" style="fill:white">02</text>
+<text x="822" y="820" font-size="14" font-weight="600">BASE</text>
+<text x="822" y="841" class="fine muted">Catches water</text>
+<path class="leader" d="M178 849L153 875L448 983M154 869L153 875L160 875M442 977L448 983L442 983"/>
+<text x="299" y="953" transform="rotate(20 299 953)" text-anchor="middle" class="fine">116 mm</text>
+<path class="leader" d="M527 945L548 971L742 900M542 972L548 971L547 965M736 900L742 900L739 906"/>
+<text x="652" y="949" transform="rotate(-20 652 949)" text-anchor="middle" class="fine">78 mm</text>
+
+<!-- Specification column. -->
+<rect x="963" y="177" width="413" height="192" rx="18" class="card"/>
+<text x="989" y="209" class="eyebrow">01 / REMOVABLE FILTER</text>
+<text x="989" y="248" class="dimension">110.4 × 72.4 mm</text>
+<text x="989" y="278" class="body muted">3 mm deck · 4 mm retaining rim</text>
+<text x="989" y="305" class="body muted">24 drainage slots · 11 raised ribs</text>
+<text x="989" y="332" class="body muted">105.6 × 67.6 mm clear soap pocket</text>
+<rect x="963" y="386" width="413" height="192" rx="18" class="card"/>
+<text x="989" y="418" class="eyebrow">02 / DRAINAGE BASE</text>
+<text x="989" y="457" class="dimension">116 × 78 × 15.4 mm</text>
+<text x="989" y="487" class="body muted">2.4 mm floor and outer wall</text>
+<text x="989" y="514" class="body muted">Continuous ledge supports the insert</text>
+<text x="989" y="541" class="body muted">Finger recesses at both short ends</text>
+<rect x="963" y="595" width="413" height="264" rx="18" class="card"/>
+<text x="989" y="627" class="eyebrow">ASSEMBLED SECTION / SCHEMATIC</text>
+<!-- Diagram is deliberately schematic, with exaggerated line thickness. -->
+<path d="M1010 696V792H1327V696H1319V784H1018V696Z" fill="#5c9681"/>
+<rect x="1018" y="752" width="10" height="32" fill="#5c9681"/>
+<rect x="1309" y="752" width="10" height="32" fill="#5c9681"/>
+<path d="M1020 690H1028V729H1309V690H1317V752H1020Z" fill="#a4ceb3" stroke="#6f9d81" stroke-width="1"/>
+<rect x="1040" y="713" width="12" height="16" fill="#a4ceb3"/><rect x="1099" y="713" width="12" height="16" fill="#a4ceb3"/><rect x="1158" y="713" width="12" height="16" fill="#a4ceb3"/><rect x="1217" y="713" width="12" height="16" fill="#a4ceb3"/><rect x="1276" y="713" width="12" height="16" fill="#a4ceb3"/>
+<rect x="1040" y="658" width="248" height="54" rx="3" fill="#edecd9" stroke="#c6c8b6" stroke-dasharray="5 4"/>
+<path d="M1169 757V780M1165 761L1169 757L1173 761M1165 776L1169 780L1173 776" fill="none" stroke="#274f41" stroke-width="1.3"/>
+<text x="1184" y="774" class="fine">8 mm</text>
+<text x="989" y="826" class="fine muted">17.4 mm assembled height, excluding soap</text>
+<rect x="963" y="876" width="413" height="113" rx="18" fill="#dce8df"/>
+<text x="989" y="907" font-size="15" font-weight="600">Designed to lift, drain, and rinse.</text>
+<text x="989" y="934" class="fine muted">0.4 mm insert clearance per side.</text>
+<text x="989" y="956" class="fine muted">5.8 mm soap clearance per side.</text>
+
+<path d="M64 1012H1376" stroke="#cddbd4"/>
+<text x="64" y="1045" class="fine muted">All dimensions in mm. Catch reservoir must be emptied periodically.</text>
+<text x="1376" y="1045" text-anchor="end" class="fine muted">Concept geometry · fit and print performance unverified</text>
+</svg>

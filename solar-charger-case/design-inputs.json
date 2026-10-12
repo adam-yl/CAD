@@ -1,0 +1,26 @@
+{
+  "project": "Solar Charger Case",
+  "active_variant": "small charger",
+  "units": "mm",
+  "revision": "v0.3",
+  "user_provided_dimensions_mm": {
+    "panel_length": 80.0,
+    "panel_width": 45.0,
+    "panel_thickness": 3.2,
+    "switch_overhang_beyond_panel_edge_approx": 4.3,
+    "lens_front_dia": 31.3,
+    "lens_front_to_ledge_offset": 1.0,
+    "lens_ledge_dia": 35.0,
+    "lens_ledge_thickness": 1.3,
+    "solar_component_thickness": 15.2,
+    "frontlens_to_backofLED": 18.6,
+    "switch_barrel_diameter": 5.6,
+    "switch_center_from_panel_front": 7.8,
+    "switch_center_depth_below_panel_face": 8.0,
+    "switch_lever_tip_total_travel": 8.0
+  },
+  "sliding_clearance": {
+    "confirmed_lens_groove_axial_width_mm": 1.4,
+    "meaning": "1.3 mm lens ledge plus 0.1 mm total axial clearance. This does not define radial clearance or snap engagement."
+  }
+}

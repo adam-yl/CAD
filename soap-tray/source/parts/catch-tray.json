@@ -1,0 +1,12 @@
+{
+  "outer_length": 116.0,
+  "outer_width": 78.0,
+  "outer_corner_radius": 10.0,
+  "height": 15.4,
+  "floor_thickness": 2.4,
+  "wall_thickness": 2.4,
+  "seat_height": 10.4,
+  "ledge_width": 2.8,
+  "finger_recess_width": 18.0,
+  "finger_recess_depth": 4.0
+}
